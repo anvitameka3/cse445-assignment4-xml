@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Anvita Meka - CSE 445 Assignment 4, Q1.2.
+     Grand Canyon preserves every value in the required Figure 1 example.
+     Other ratings are illustrative assignment data, not published review scores.
+     Airport entries identify nearby commercial gateways; closeness depends on
+     the chosen entrance. Addresses are park contact/shipping addresses. -->
+<NationalPark>
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Phone>866-499-2574</Phone>
+    <Address NearestAirport="FlagStaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Zion</Name>
+    <Phone>435-772-3256</Phone>
+    <Address>
+      <Number>1</Number>
+      <Street>Zion Park Blvd.</Street>
+      <City>Springdale</City>
+      <State>UT</State>
+      <Zip>84767</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Joshua Tree</Name>
+    <Phone>760-367-5500</Phone>
+    <Phone>760-367-5554</Phone>
+    <Address NearestAirport="Palm Springs International Airport">
+      <Number>74485</Number>
+      <Street>National Park Drive</Street>
+      <City>Twentynine Palms</City>
+      <State>CA</State>
+      <Zip>92277</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.7">
+    <Name>Saguaro</Name>
+    <Phone>520-733-5153</Phone>
+    <Phone>520-733-5158</Phone>
+    <Address NearestAirport="Tucson International Airport">
+      <Number>3693</Number>
+      <Street>South Old Spanish Trail</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85730</Zip>
+  </NationalPark>
+  <NationalPark>
+    <Name>Acadia</Name>
+    <Phone>207-288-3338</Phone>
+    <Address NearestAirport="Hancock County-Bar Harbor Airport">
+      <Number>20</Number>
+      <Street>McFarland Hill Drive</Street>
+      <City>Bar Harbor</City>
+      <State>ME</State>
+      <Zip>04609</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Rocky Mountain</Name>
+    <Phone>970-586-1206</Phone>
+    <Phone>970-586-1222</Phone>
+    <Address NearestAirport="Denver International Airport">
+      <Number>1000</Number>
+      <Street>U.S. Highway 36</Street>
+      <City>Estes Park</City>
+      <State>CO</State>
+      <Zip>80517</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Pinnacles</Name>
+    <Address NearestAirport="Monterey Regional Airport">
+      <Number>5000</Number>
+      <Street>East Entrance Road</Street>
+      <City>Paicines</City>
+      <State>CA</State>
+      <Zip>95043</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Redwood</Name>
+    <Name>Redwood National Park</Name>
+    <Phone>707-464-6101</Phone>
+    <Address NearestAirport="Del Norte County Regional Airport">
+      <Number>1111</Number>
+      <Street>Second Street</Street>
+      <City>Crescent City</City>
+      <State>CA</State>
+      <Zip>95531</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Shenandoah</Name>
+    <Phone>540-999-3500</Phone>
+    <Address NearestAirport="Shenandoah Valley Regional Airport">
+      <Number>3655</Number>
+      <Street>Hwy 211 East</Street>
+      <City>Luray</City>
+      <State>VA</State>
+      <Zip>22835</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.6">
+    <Name>Cuyahoga Valley</Name>
+    <Phone>440-717-3890</Phone>
+    <Address NearestAirport="Cleveland Hopkins International Airport">
+      <Number>15610</Number>
+      <Street>Vaughn Road</Street>
+      <City>Brecksville</City>
+      <State>OH</State>
+      <Zip>44141</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Great Smoky Mountains</Name>
+    <Phone>865-436-1200</Phone>
+    <Address NearestAirport="McGhee Tyson Airport">
+      <Number>107</Number>
+      <Street>Park Headquarters Road</Street>
+      <City>Gatlinburg</City>
+      <State>TN</State>
+      <Zip>37738</Zip>
+    </Address>
+  </NationalPark>
+</NationalPark>
