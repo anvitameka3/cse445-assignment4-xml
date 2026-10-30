@@ -5,12 +5,14 @@
      Phone accepts one or more values; Rating is optional; NearestAirport is required.
      Number and Zip are xs:int, as recommended by the Gradescope course FAQ. -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:tns="https://anvitameka3.github.io/cse445-assignment4-xml/"
+            targetNamespace="https://anvitameka3.github.io/cse445-assignment4-xml/"
             elementFormDefault="qualified" attributeFormDefault="unqualified">
-  <xsd:element name="NationalParks" type="NationalParksType" />
+  <xsd:element name="NationalParks" type="tns:NationalParksType" />
 
   <xsd:complexType name="NationalParksType">
     <xsd:sequence>
-      <xsd:element name="NationalPark" type="NationalParkType"
+      <xsd:element name="NationalPark" type="tns:NationalParkType"
                    minOccurs="1" maxOccurs="unbounded" />
     </xsd:sequence>
   </xsd:complexType>
@@ -20,7 +22,7 @@
       <xsd:element name="Name" type="xsd:string" />
       <xsd:element name="Phone" type="xsd:string"
                    minOccurs="1" maxOccurs="unbounded" />
-      <xsd:element name="Address" type="AddressType" />
+      <xsd:element name="Address" type="tns:AddressType" />
     </xsd:sequence>
     <xsd:attribute name="Rating" type="xsd:float" use="optional" />
   </xsd:complexType>
