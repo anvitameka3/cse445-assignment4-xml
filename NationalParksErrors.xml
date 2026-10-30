@@ -4,7 +4,7 @@
      Other ratings are illustrative assignment data, not published review scores.
      Airport entries identify nearby commercial gateways; closeness depends on
      the chosen entrance. Addresses are park contact/shipping addresses. -->
-<NationalPark>
+<NationalPark xmlns="https://anvitameka3.github.io/cse445-assignment4-xml/">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
